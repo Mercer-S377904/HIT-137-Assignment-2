@@ -29,10 +29,10 @@ for i in range(5):
     print(i) #i prints 0-4
     i += 1 #Before print if you want i to print as 1-5 
 
-if my_set is not None and my_dict['key4'] == 10: #Use .get to acces key4?
+if my_set is not None and my_dict['key4'] == 10:
     print("Condition met!")
 
-if 5 not in my_dict: #My_dict.values to see if 5 is a value in my_dict
+if 5 not in my_dict:
     print("5 not found in the dictionary!")
 
 print(global_variable)
