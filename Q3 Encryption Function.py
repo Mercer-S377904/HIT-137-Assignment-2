@@ -2,7 +2,7 @@ def encrypt(text, key):
     encrypted_text = ""
     for char in text:
         if char.isalpha(): #Shifts letters only
-            shifted = ord(char) + key #Shift adds key only
+            shifted = ord(char) + key #Shift adds key
             #Line 7 to 16 ensures letters dont get shifted into characters by shifting from z back to a
             if char.islower(): 
                 if shifted > ord('z'):
