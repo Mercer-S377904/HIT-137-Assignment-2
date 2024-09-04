@@ -3,7 +3,7 @@ my_dict = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
 def process_numbers(): 
     global global_variable 
     local_variable = 5 
-    numbers = [1, 2, 3, 4, 5] #Numbers should be a variable in the function not defined here
+    numbers = [1, 2, 3, 4, 5] #Numbers should be a variable in the function as it is defined when called on line 16
 
     while local_variable > 0: 
         if local_variable % 2 == 0: 
