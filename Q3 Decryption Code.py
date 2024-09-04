@@ -2,7 +2,8 @@ def decrypt(text, key):
     decrypted_text = ""
     for char in text:
         if char.isalpha():
-            shifted = ord(char) - key  # Reverse the key used in encryption
+            shifted = ord(char) - key  #Reverse the key used in encryption
+            #Keep to ensure letters stay within a to z
             if char.islower():
                 if shifted > ord('z'):
                     shifted -= 26
@@ -18,7 +19,7 @@ def decrypt(text, key):
             decrypted_text += char
     return decrypted_text
 
-# Generate the key
+#Generate the key in function
 def generateKey():
     total = 0
     for i in range(5):
@@ -36,12 +37,12 @@ def generateKey():
             total -= 1
         else:
             counter += 2
-
+    #Return total to be aassigned as key
     return total
 
-key = generateKey()  # This is our decryption key
+key = generateKey()  #Call the key generator and assign to key
 
-# Our encrypted code
+#Encrypted code
 encrypted_code = """
 tybony_inevnoyr = 100 
 zl_qvpg = {'xrl1': 'inyhr1', 'xrl2': 'inyhr2', 'xrl3': 'inyhr3'} 
@@ -84,6 +85,6 @@ cevag(tybony_inevnoyr)
 cevag(zl_qvpg) 
 cevag(zl_frg)"""
 
-#call function to decrypt the code then print
+#Call function to decrypt the code then print output
 decrypted_code = decrypt(encrypted_code, key)
 print(decrypted_code)
