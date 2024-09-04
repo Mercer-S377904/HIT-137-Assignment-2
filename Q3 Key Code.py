@@ -13,7 +13,7 @@
             total += 1
         elif total > 13:
             total -= 1
-        #if total is not less than or mare than 13, increase counter (basically checks 3 times to ensure 13)
+        #If total is not less than or more than 13, increase counter (basically checks 3 times to ensure 13)
         else:
             counter += 2
 
