@@ -5,6 +5,7 @@ evennumbers = ""
 evenASCII = ""
 upperCase = ""
 upperASCII = ""
+print("Input string is: ", string)
 
 #seperate into letters and numbers
 for i in string:
