@@ -1,0 +1,4 @@
+Important clarrification:
+due to size and time limitations I created a smaller veresion of the extracted text
+titled "extracted_text_edited.txt". This is the file the majority of the programs
+are reading from.
