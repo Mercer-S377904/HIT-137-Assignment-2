@@ -1,3 +1,6 @@
+#!!!IMPORTANT!!! 
+#Requires user to run 'pip install pillow' in terminal prior to running code
+
 from PIL import Image
 
 image = Image.open("C:\VSPython\Assignment 2\Q2\chapter1out.jpg")
