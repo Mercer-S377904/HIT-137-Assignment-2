@@ -33,7 +33,7 @@ def extract_entities (read_path):
     return entities
 
 # Text file to be analysed 
-read_path = 'extracted_text_edited.txt'
+read_path = 'extracted_text.txt'
 
 # Extract entities from the file
 entities = extract_entities (read_path)
