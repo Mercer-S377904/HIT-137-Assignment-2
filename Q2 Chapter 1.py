@@ -1,6 +1,8 @@
 #!!!IMPORTANT!!! 
 #Requires user to run 'pip install pillow' in terminal prior to running code
 
+print("!!!IMPORTANT!!! This program requires user to run 'pip install pillow' in terminal and save image file to C:\VSPython\Assignment 2\Q2\chapter1.jpg prior to running code")
+
 #Import Pillow package
 from PIL import Image 
 
