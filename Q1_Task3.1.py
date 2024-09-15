@@ -80,7 +80,7 @@ def top_30_filtered (read_path, output_path):
 
 
 
-read_path = 'extracted_text_edited.txt'  # Path to the text file generated from Task 1
+read_path = 'extracted_text.txt'  # Path to the text file generated from Task 1
 output_csv_path1 = 'top_30_words.csv'  # Path to store the Top 30 words and their counts
 output_csv_path2 = 'top_30_filtered_words.csv'  # Path to store the Top 30 filtered words and their counts
 
