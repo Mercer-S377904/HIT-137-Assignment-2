@@ -74,7 +74,7 @@ def extract_entities (read_path):
     return ent
 
 # Path to your text file
-read_path = 'extracted_text_edited.txt'
+read_path = 'extracted_text.txt'
 
 # Extract entities from the file
 ent = extract_entities (read_path)
