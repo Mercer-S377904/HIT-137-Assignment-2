@@ -6,7 +6,7 @@ def decrypt(text, key):
         if char.isalpha():
             # Reverse the key used in encryption
             shifted = ord(char) - key
-            #If new values fall out of charachter range, from z back to a 
+            #If new values fall out of character range, from z back to a 
             if char.islower(): #This example doesnt need lowercase but kept it anyway
                 if shifted > ord('z'):
                     shifted -= 26
