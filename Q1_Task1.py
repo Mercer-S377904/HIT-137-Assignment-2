@@ -1,7 +1,7 @@
 #Question 1 Task 1
 
 import zipfile # Allows program to work with zipfile
-import pandas as pd # Library for data analysis
+import pandas as pd # Open Source NLP Library for data analysis 
 
 
 # Creating a function that extracts the text from the CSV files
@@ -53,8 +53,8 @@ def extract_text (zip_path, output_path):
                 except Exception as e:
                     print (f"Error processing file {csv_info.filename}: {e}")
 
-# Name of zip folder being extracted and name of produce .txt file
-zip_path = 'CSV.zip'
+# Name of zip folder being extracted and name of produced .txt file
+zip_path = 'Assignment 2.zip'
 output_path = 'extracted_text.txt'
 
 # Calls the function
