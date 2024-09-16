@@ -1,4 +1,17 @@
 Important clarrification:
-due to size and time limitations I created a smaller veresion of the extracted text
+1) due to size and time limitations I created a smaller version of the extracted text
 titled "extracted_text_edited.txt". This is the file the majority of the programs
 are reading from.
+2) Additionally the read and write paths are specific to each pc
+3) The 4 .csv files must be placed into a file called 'CSV' and zipped
+4) the folder on your desktop should be called Ass-2-Q1 and the contents of the folder should be
+    ASS-2-Q1T1
+    ASS-2-Q1T2
+    ASS-2-Q1T3.1
+    ASS-2-Q1T3.2
+    ASS-2-Q1T4a
+    ASS-2-Q1T4b
+    CSV (The zipped CSV folder with the 4 .csv files)
+    extracted_text_edited
+    Question-1-READ-ME
+5) in order for the code to work, everything from Task 2 must be installed
