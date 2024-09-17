@@ -2,7 +2,8 @@ Comparison of SpaCy vs Biobert for Entity Detection
 A direct comparison between BC5CDR and BioBert highlights a disparity between their entity detection capabilities. 
 The results from the BC5CDR model indicate that the list of terms the program cross-references against is significantly 
 larger than that of the BioBert model. The disparity in specificity between the two models is abundantly clear, as the 
-BC5CDR model produces an extraordinarily extensive list of detected entities compared to the BioBert model. 
+BC5CDR model produces an extraordinarily extensive list of detected entities compared to the BioBert model. However, 
+both models appear to run with similar runtime performance characteristics.
 
 The BC5CDR model produces a comprehensive list of detected entities, covering various conditions and ailments within 
 the extracted text. Evidently, the model is extraordinarily sensitive compared to the Biobert model, which tends to 
