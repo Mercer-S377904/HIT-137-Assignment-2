@@ -41,7 +41,7 @@ def top_30 (read_path, output_path, model ='dmis-lab/biobert-v1.1'):
     print (f"Top 30 tokens are recorded on {output_path}")
 
 
-read_path = 'extracted_text.txt'  # Path to the text file generated from Task 1
+read_path = 'extracted_text_edited.txt'  # Path to the edited text file
 output_path = 'top_30_tokens.csv'  # Path to store the Top 30 tokens and their counts
 
 # Calls function
