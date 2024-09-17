@@ -1,5 +1,5 @@
 # Question 1 Task 2
-# The commands through powershell to install the required libraries
+# Run the commands through powershell to install the required libraries
 
 ! pip install nltk
 ! pip install spacy
