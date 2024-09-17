@@ -73,12 +73,12 @@ def extract_entities (read_path):
     
     return ent
 
-# Path to your text file
-read_path = 'extracted_text.txt'
+# Path to the edited text file
+read_path = 'extracted_text_edited.txt'
 
 # Extract entities from the file
 ent = extract_entities (read_path)
 
 # Output the results, converting sets back to sorted lists
-print ("\nDetected Diseases (sorted alphabetically):\n", sorted (ent['disease']))
-print ("\nDetected Drugs (sorted alphabetically):\n", sorted (ent['drug']))
+print ("\n Detected Diseases (sorted alphabetically): \n", sorted (ent ['disease']))
+print ("\n Detected Drugs (sorted alphabetically): \n", sorted (ent ['drug']))
