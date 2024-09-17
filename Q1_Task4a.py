@@ -32,8 +32,8 @@ def extract_entities (read_path):
             entities ['drug'].add (ent.text)
     return entities
 
-# Text file to be analysed 
-read_path = 'extracted_text.txt'
+# Path to the edited text file
+read_path = 'extracted_text_edited.txt'
 
 # Extract entities from the file
 entities = extract_entities (read_path)
